@@ -1,1 +1,12 @@
-
+echo "Python" >> tecnologias.txt
+echo "React" >> tecnologias.txt
+echo "Docker" >> tecnologias.txt
+git add tecnologias.txt
+git commit -m "feat: Adiciona Python, React e Docker ao tecnologias.txt"
+echo "## Configuração do Ambiente" > config_ambiente.md
+echo "### Pré-requisitos" >> config_ambiente.md
+echo "* **Node.js**: Versão 18+" >> config_ambiente.md
+echo "* **Docker**: Docker Desktop instalado" >> config_ambiente.md
+git add config_ambiente.md
+git commit -m "docs: Cria arquivo config_ambiente.md com requisitos de ambiente"
+git push -u origin feature-tecnologias
