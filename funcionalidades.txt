@@ -1,2 +1,2 @@
-Cadastro de Usuários com validação de email.
-Interface de busca por palavra-chave na base de dados.
+- Login e autenticação
+- Cadastro de usuários
