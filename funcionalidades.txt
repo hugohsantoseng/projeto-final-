@@ -1,1 +1,3 @@
-
+Cadastro de Usuários com validação de email.
+Interface de busca por palavra-chave na base de dados.
+Geração de relatórios PDF a partir dos resultados da busca.
